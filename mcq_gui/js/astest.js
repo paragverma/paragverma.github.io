@@ -37,7 +37,7 @@ var app = angular.module('Astest', [])
 
 
     $scope.curentquestion = 1;
-    $scope.currentime = 30;
+    $scope.currentime = 45 * 60;
 
     $scope.timerinterval = null;
 
